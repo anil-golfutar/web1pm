@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-size: 1.3rem;
+}
+
+.container-contact {
+    background: #ddd;
+    height: 100vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-field  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: inherit;
+    resize: none;
+
+}
+
+.country-book {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.books {
+    display: flex;
+    gap: 10px;
+}
+.book {
+    display: flex;
+    gap: 10px;
+}
+
+.gender-birth {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+.button-group input[type="submit"] {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.button-group input[type="submit"]:hover {
+    background: #0056b3;
+}
+.button-group input[type="reset"] {
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-group input[type="reset"]:hover {
+    background: #5a6268;
+}

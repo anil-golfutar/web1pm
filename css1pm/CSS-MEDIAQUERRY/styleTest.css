@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  /* min-height: 200px; */
+  background: aliceblue;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav {
+  width: 98%;
+  height: 60px;
+  background: grey;
+  margin: auto;
+}
+
+.layer1 {
+  width: 98%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.layer2 {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: auto;
+}
+
+.layer3 {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 10px;
+}
+
+.layer3_1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.layer3_2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.layer4 {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.box {
+  height: 100px;
+}
+
+.box1 {
+  width: 50%;
+  background: rebeccapurple;
+}
+
+.box2 {
+  width: 25%;
+  background: rgb(90, 143, 90);
+}
+
+.box3_1 {
+  width: 100%;
+  height: 200px;
+  background: yellowgreen;
+}
+
+.box3_2 {
+  width: 100%;
+  height: 100%;
+  background: rgb(145, 145, 25);
+}
+
+.box4 {
+  width: 33%;
+  background: chocolate;
+}
+
+@media (max-width: 600px) {
+  .layer1 {
+    flex-direction: column;
+  }
+  .layer2 {
+    flex-direction: column;
+  }
+  .layer3 {
+    flex-direction: column;
+  }
+  .layer3_1 {
+    flex-direction: column;
+  }
+  .layer3_2 {
+    flex-direction: column;
+  }
+  .layer4 {
+    flex-direction: column;
+  }
+
+  .box,
+  .box1,
+  .box3,
+  .box4 {
+    width: 100%;
+  }
+}

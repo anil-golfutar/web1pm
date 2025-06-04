@@ -1,0 +1,52 @@
+.anil-icon {
+  margin-left: -80px;
+  text-align: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+#navbarSupportedContent ul li a i {
+  color: white;
+}
+
+#navbarSupportedContent ul li a i:hover,
+.anil-icon:hover {
+  color: rgb(78, 152, 202);
+}
+
+.anil-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(78, 152, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anil-email-icon {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(141, 63, 63);
+  color: rgb(74, 74, 208);
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+.anil-email-icon i {
+  text-align: center;
+}
+
+a {
+  color: rgb(211, 208, 208);
+}
+
+li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}

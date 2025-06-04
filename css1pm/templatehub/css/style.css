@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #aaa;
+  color: #333;
+  height: 100%;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #ccc;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  padding: 30px 0;
+}
+
+.soccer {
+  width: 100%;
+  height: 120px;
+  background: darkblue;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 28px;
+  
+}
+
+.left-right {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10px 10px;
+}
+.left {
+  width: 62%;
+  height: 600px;
+  background: #ddd;
+}
+.right {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 30px;
+  background: #ddd;
+}
+
+.right-bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 5px;
+}
+.right-bottom .right-orange {
+  width: 100%;
+  height: 50px;
+  background: orange;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.right-top {
+  width: 100%;
+  height: 8%;
+  background: orange;
+  border-radius: 30px 30px 0 0;
+}
+
+
+.left-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left {
+  width: 20%;
+  height: 100%;
+  background: #ddd;
+}
+.bottom-right {
+  width: 100%;
+  height: 60px;
+}
+
+.dashboard {
+  width: 100%;
+  height: 60px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+}
+.dashboard h3 {
+  color: red;
+  margin-left: 20px;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}
+
+.fact {
+  width:150px;
+  height: 100px;
+  background: green;
+}
+
+.right .right-top{
+  width: 100%;
+  height: 10%;
+  background: orange;
+  display: flex;
+  align-items: center;
+}
+
+.right .right-top span {
+  font-size: 20px;
+  color: white;
+  padding: 5px 20px;
+  background: green;
+  margin-left: 10px;
+}
+
+.menu ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  background: #ddd;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {      
+      height: 100vh;
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      position: relative;
+      display: flex;
+      justify-content: center;      
+      gap: 40px;
+      width: 90%;
+      height: 95%;
+      background-color: #fff;
+    }
+    .left-box {
+      background-color: red;
+      width: 46%;
+      height: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .right-box {
+      margin-top: 40px;
+      background-color: blue;
+      width: 46%;
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .left-box .middle-box {
+      background-color: green;
+      width: 90%;
+      height: 20%;
+    }
+    .right-box .top-box {
+      background-color: yellow;
+      width: 100%;
+      height: 20%;
+    }
+    .right-box .bottom-box {
+      background-color: orange;
+      width: 100%;
+      height: 20%;
+    }
+    .right-bottom-box {
+      background-color: purple;
+      width: 20%;
+      height: 10%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-box">
+      <div class="middle-box"></div>
+    </div>
+    <div class="right-box">
+      <div class="top-box"></div>
+      <div class="bottom-box"></div>
+    </div>
+    <div class="right-bottom-box"></div>
+  </div>
+</body>
+</html>

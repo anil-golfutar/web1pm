@@ -1,0 +1,41 @@
+.outer-container {
+  width: 400px;
+  height: 500px;
+  background: rgb(141, 168, 87);
+  position: relative;
+}
+
+.inner-container {
+  width: 400px;
+  height: 200px;
+  background: rgb(57, 62, 48);
+  position: absolute;
+  bottom: 0;
+}
+
+.inner-container:hover {
+  animation: bigger 5s ease-in-out;
+}
+
+@keyframes bigger {
+  0% {
+    height: 200px;
+    background: aqua;
+  }
+  25% {
+    height: 300px;
+    background: green;
+  }
+  50% {
+    height: 350px;
+    background: red;
+  }
+  75% {
+    height: 400px;
+    background: yellow;
+  }
+  100% {
+    height: 500px;
+    background: burlywood;
+  }
+}

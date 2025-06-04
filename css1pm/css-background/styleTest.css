@@ -1,0 +1,21 @@
+.container {
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  height: 400px;
+  background: url("images/img35.avif") no-repeat;
+  object-fit: cover;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  margin: auto;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+h3,
+p {
+  margin: 0;
+}
